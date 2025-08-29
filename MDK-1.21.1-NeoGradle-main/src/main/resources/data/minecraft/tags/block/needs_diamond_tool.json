@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nmo:beryllium_deepslate_ore",
+    "nmo:cobalt_deepslate_ore",
+    "nmo:titanium_deepslate_ore",
+    "nmo:lithium_deepslate_ore"
+  ]
+}

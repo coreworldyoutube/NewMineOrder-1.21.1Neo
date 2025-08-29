@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/cobalt_deepslate_ore",
+  "textures": {
+    "all": "nmo:block/cobalt_deepslate_ore"
+  }
+}

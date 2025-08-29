@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/lithium_deepslate_ore",
+  "textures": {
+    "all": "nmo:block/lithium_deepslate_ore"
+  }
+}

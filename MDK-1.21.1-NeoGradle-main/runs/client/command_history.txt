@@ -1,0 +1,50 @@
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/gamerule commandModificationBlockLimit 60000
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
+/gamerule commandModificationBlockLimit 600000
+/fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
+/gamerule commandModificationBlockLimit 600000
+/fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
+/
+/fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
+/give @p nmo:copper_coil
+/give @p nmo:molten_beryllium_bucket
+/give @p nmo:molten_copper_bucket
+/give @p nmo:titanium_ore
+/give @p nmo:cobalt_ore
+/give @p nmo:titanium_ore
+/give @p nmo:titanium_deepslate_ore
+/give @p nmo:cobalt_deepslate_ore
+/give @p nmo:lithium_ore
+/time set day
+/fill ~25 ~25 ~25 ~ ~ ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:deepslate_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:deepslate_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:deepslate_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:deepslate_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:stone_ore_replaceables
+/fill ~25 ~15 ~25 ~ ~-15 ~ air replace #minecraft:deepslate_ore_replaceables
+/tp ~ ~64 ~
+/give @p nmo:cobalt_raw
+/give @p nmo:cobalt_raw 64
+/give @p nmo:lithium_raw
+/give @p nmo:titanium_raw
+/give @p nmo:heated_processing_table
+/give @p nmo:heated_processing_table_working
+/give @p nmo:molten_beryllium_bucket

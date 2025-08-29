@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 20,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "nmo:titanium_raw"
+  },
+  "result": {
+    "count": 1,
+    "id": "nmo:titanium_ingot"
+  }
+}

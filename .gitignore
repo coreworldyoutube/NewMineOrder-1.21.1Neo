@@ -1,0 +1,4 @@
+# プロジェクトの除外パス
+/MDK-1.21.1-NeoGradle-main/.gradle/
+/MDK-1.21.1-NeoGradle-main/build/
+/MDK-1.21.1-NeoGradle-main/build/classes/java/main/

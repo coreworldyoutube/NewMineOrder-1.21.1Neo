@@ -1,0 +1,13 @@
+{
+  "creativetab.nmo.newmineorder_tab": "newmineorder",
+  "item.nmo.beryllium_ingot": "beryllium ingot",
+  "item.nmo.beryllium_raw": "beryllium raw",
+  "item.nmo.beryllium_raw": "scrap beryllium copper",
+  "block.nmo.beryllium_ore": "beryllium ore",
+  "block.nmo.beryllium_deepslate_ore": "beryllium deepslate ore",
+  "block.nmo.silver_ore": "silver ore",
+  "block.nmo.silver_deepslate_ore": "silver deepslate ore",
+  "block.nmo.bismuth_ore": "bismuth ore",
+  "block.nmo.bismuth_deepslate_ore": "bismuth deepslate ore",
+  "block.nmo.beryllium_copper_slag": "beryllium copper slag"
+}

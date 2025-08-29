@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "nmo:beryllium_ingot"
+    }
+  },
+  "pattern": [
+    "X"
+  ],
+  "result": {
+    "count": 9,
+    "id": "nmo:beryllium_nugget"
+  }
+}

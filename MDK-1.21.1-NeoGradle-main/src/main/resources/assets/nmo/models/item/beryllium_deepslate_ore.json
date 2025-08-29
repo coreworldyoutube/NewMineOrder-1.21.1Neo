@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/beryllium_deepslate_ore",
+  "textures": {
+    "all": "nmo:block/beryllium_deepslate_ore"
+  }
+}

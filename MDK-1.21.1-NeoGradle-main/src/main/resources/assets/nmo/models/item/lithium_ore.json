@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/lithium_ore",
+  "textures": {
+    "all": "nmo:block/lithium_ore"
+  }
+}

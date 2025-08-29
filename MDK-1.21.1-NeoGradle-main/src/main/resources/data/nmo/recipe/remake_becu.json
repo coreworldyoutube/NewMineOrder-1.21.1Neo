@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 20,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "nmo:scrap_becu"
+  },
+  "result": {
+    "count": 1,
+    "id": "nmo:beryllium_copper_nugget"
+  }
+}

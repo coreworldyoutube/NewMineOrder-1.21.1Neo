@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/titanium_ore",
+  "textures": {
+    "all": "nmo:block/titanium_ore"
+  }
+}

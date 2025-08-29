@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "nmo:beryllium_copper_slag",
+    "nmo:cobalt_ore",
+    "nmo:titanium_ore",
+    "nmo:lithium_ore",
+    "nmo:beryllium_ore"
+  ]
+}

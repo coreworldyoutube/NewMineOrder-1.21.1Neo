@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 20,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "nmo:beryllium_raw"
+  },
+  "result": {
+    "count": 1,
+    "id": "nmo:beryllium_nugget"
+  }
+}
