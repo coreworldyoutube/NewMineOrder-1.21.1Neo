@@ -1,6 +1,3 @@
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
-/gamerule commandModificationBlockLimit 60000
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
 /
 /fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
 /
@@ -47,4 +44,7 @@
 /give @p nmo:titanium_raw
 /give @p nmo:heated_processing_table
 /give @p nmo:heated_processing_table_working
+/give @p nmo:molten_beryllium_bucket
+/give @p nmo:molten_
+/give @p nmo:molten_copper_bucket
 /give @p nmo:molten_beryllium_bucket

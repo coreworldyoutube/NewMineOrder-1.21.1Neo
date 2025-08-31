@@ -47,18 +47,6 @@ public class AllBlock {
     }
 
 
-    public static final DeferredBlock<Block> HEATED_WORKBENCH = registerBlock("heated_workbench",
-            () -> new HeatedWorkbenchBlock(
-                    BlockBehaviour.Properties.of()
-                            .strength(3.5f)
-                            .requiresCorrectToolForDrops()
-                            .sound(SoundType.STONE)
-            ));
-
-
-
-
-
 
 
     private static final BlockBehaviour.Properties ORE_PROPERTIES =
