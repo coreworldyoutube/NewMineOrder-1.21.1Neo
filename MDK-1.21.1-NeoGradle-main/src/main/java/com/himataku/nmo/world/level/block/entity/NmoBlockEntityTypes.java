@@ -3,6 +3,7 @@ package com.himataku.nmo.world.level.block.entity;
 import com.himataku.nmo.Main;
 import com.himataku.nmo.block.AllBlock;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 

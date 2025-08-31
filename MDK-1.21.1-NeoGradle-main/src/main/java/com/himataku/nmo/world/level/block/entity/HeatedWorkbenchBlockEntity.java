@@ -1,4 +1,4 @@
-package net.terrarian.nmo.world.level.block.entity;
+package com.himataku.nmo.world.level.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.crafting.RecipeType;

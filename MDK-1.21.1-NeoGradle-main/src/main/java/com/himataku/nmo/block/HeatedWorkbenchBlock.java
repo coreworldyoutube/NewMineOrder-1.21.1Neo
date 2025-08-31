@@ -1,6 +1,6 @@
 package com.himataku.nmo.block;
 
-
+import com.himataku.nmo.world.level.block.entity.HeatedWorkbenchBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -24,7 +24,7 @@ public class HeatedWorkbenchBlock extends FurnaceBlock {
         return new HeatedWorkbenchBlockEntity(pos, state);
     }
 
-    @Override
+
     public InteractionResult use(BlockState state, Level level, BlockPos pos,
                                  Player player, InteractionHand hand, BlockHitResult hit) {
         if (!level.isClientSide) {
