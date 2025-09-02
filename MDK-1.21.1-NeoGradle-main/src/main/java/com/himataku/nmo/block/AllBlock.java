@@ -46,13 +46,6 @@ public class AllBlock {
         }
     }
 
-    public static final Supplier<Block> CRUSH = BLOCKS.register("crusher",
-            () -> new Crush(BlockBehaviour.Properties.of()
-                    .strength(4f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
-                    .noOcclusion())
-    );
 
 
 

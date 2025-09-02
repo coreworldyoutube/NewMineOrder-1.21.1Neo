@@ -1,7 +1,8 @@
 package com.himataku.nmo.block.entity;
 
+
 import com.himataku.nmo.Main;
-import com.himataku.nmo.block.AllBlock;
+import com.himataku.nmo.block.extra.ExtraAll;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.bus.api.IEventBus;
@@ -21,7 +22,7 @@ public class ModBlockEntities {
                     // BlockEntity のコンストラクタ参照
                     CrushBlockEntity::new,
                     // 対応するブロック
-                    AllBlock.CRUSH.get()
+                    ExtraAll.EXTRA_BLOCKS.get()
             ).build(null)); // DataFixer は null で OK
 
     // DeferredRegister をイベントバスに登録するメソッド
