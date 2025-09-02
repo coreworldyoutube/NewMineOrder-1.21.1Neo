@@ -2,10 +2,6 @@
 /fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
 /
 /fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
-/
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
-/
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
 /gamerule commandModificationBlockLimit 600000
 /fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
 /
@@ -48,3 +44,7 @@
 /give @p nmo:molten_
 /give @p nmo:molten_copper_bucket
 /give @p nmo:molten_beryllium_bucket
+/give @p nmo:molten_oil_bucket
+/give @p nmo:hammer
+/give @p nmo:beryllium_copper_block
+/give @p nmo:adamant_dust

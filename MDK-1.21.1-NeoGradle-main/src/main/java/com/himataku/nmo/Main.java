@@ -1,6 +1,7 @@
 package com.himataku.nmo;
 
 import com.himataku.nmo.block.AllBlock;
+import com.himataku.nmo.block.entity.ModBlockEntities;
 import com.himataku.nmo.fluid.AllFluid;
 import com.himataku.nmo.fluid.ReactionFluid;
 import com.himataku.nmo.item.ALLItem;
@@ -21,7 +22,8 @@ public class Main {
         AllBlock.register(modEventBus);
         NmoCreativeTab.register(modEventBus);
         AllFluid.registerAll(modEventBus);
-        //AllTool.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup); // 共通セットアップ
 

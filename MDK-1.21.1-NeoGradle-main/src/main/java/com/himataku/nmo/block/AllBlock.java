@@ -1,6 +1,7 @@
 package com.himataku.nmo.block;
 
 import com.himataku.nmo.Main;
+import com.himataku.nmo.block.extra.Crush;
 import com.himataku.nmo.item.ALLItem;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -9,7 +10,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -33,7 +33,7 @@ public class AllBlock {
             "strontian", "barium", "radium", "chromium"
     };
     private static final String[] STONE_NAMES = {
-            "monazite_block", "polymetallic_nodules"
+            "monazite_block", "polymetallic_nodules","beryllium_copper_block"
     };
     private static final BlockBehaviour.Properties STONE_PROPERTIES =
             BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE);
@@ -45,6 +45,17 @@ public class AllBlock {
             REGISTERED_BLOCKS.put(blockId, block);
         }
     }
+
+    public static final Supplier<Block> CRUSH = BLOCKS.register("crusher",
+            () -> new Crush(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)
+                    .noOcclusion())
+    );
+
+
+
 
 
 
@@ -131,12 +142,11 @@ public class AllBlock {
         registerSlagBlocks();
         registerCasings();
         registerStoneBlocks();
-
-        //registerSpecialBlocks();
     }
 
     public static void register(IEventBus eventBus) {
         registerBlocksAll();
         BLOCKS.register(eventBus);
+
     }
 }

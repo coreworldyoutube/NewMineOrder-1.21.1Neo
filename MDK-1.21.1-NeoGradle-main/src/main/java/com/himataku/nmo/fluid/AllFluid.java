@@ -26,13 +26,14 @@ import java.util.Map;
 
 public class AllFluid {
 
-    public static final String[] METALS = { "copper", "zinc", "tin", "silver", "beryllium" };
+    public static final String[] METALS = { "copper", "zinc", "tin", "silver", "beryllium", "oil" };
     public static final Map<String, Integer> METAL_COLORS = Map.of(
             "copper", 0xFFB87333,
             "zinc", 0xFF7F8C8D,
             "tin", 0xFFB0C4DE,
             "silver", 0xFFC0C0C0,
-            "beryllium", 0xFF33CC99
+            "beryllium", 0xFF33CC99,
+            "oil", 0x2b2b2b
     );
 
     public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, Main.MOD_ID);

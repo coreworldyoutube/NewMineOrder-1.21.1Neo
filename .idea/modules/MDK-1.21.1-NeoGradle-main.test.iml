@@ -4,15 +4,18 @@
     <facet type="minecraft" name="Minecraft">
       <configuration>
         <autoDetectTypes>
-          <platformType>MCP</platformType>
-          <platformType>NEOFORGE</platformType>
           <platformType>MIXIN</platformType>
+          <platformType>NEOFORGE</platformType>
+          <platformType>MCP</platformType>
         </autoDetectTypes>
         <projectReimportVersion>1</projectReimportVersion>
       </configuration>
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="mappingFile" value="C:\Users\himaw\Downloads\NewMineOrder-1.21.1Neo\MDK-1.21.1-NeoGradle-main\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\mergeMappings\output.tsrg" />
+    <option name="minecraftVersion" value="1.21.1" />
+    <option name="platformVersion" value="21.1.185" />
+    <option name="srgType" value="TSRG" />
   </component>
 </module>

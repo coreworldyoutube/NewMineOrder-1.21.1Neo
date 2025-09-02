@@ -1,0 +1,6 @@
+{
+  "parent": "nmo:block/beryllium_copper_block",
+  "textures": {
+    "all": "nmo:block/beryllium_copper_block"
+  }
+}
