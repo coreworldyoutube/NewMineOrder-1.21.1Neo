@@ -1,10 +1,4 @@
 /
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
-/
-/fill ~ ~ ~ ~32 ~-32 ~32 air replace #minecraft:base_stone_overworld
-/gamerule commandModificationBlockLimit 600000
-/fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
-/
 /fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
 /gamerule commandModificationBlockLimit 600000
 /fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
@@ -48,3 +42,9 @@
 /give @p nmo:hammer
 /give @p nmo:beryllium_copper_block
 /give @p nmo:adamant_dust
+/fill ~-15 ~-15 ~15 ~ ~ ~ air
+/fill ~-15 ~-15 ~15 ~ ~ ~ air replace #minecraft:stone_ore_replaceables
+/fill ~-15 ~-15 ~15 ~ ~ ~ air replace dirt
+/fill ~-15 ~-15 ~15 ~ ~ ~ air replace grass_block
+/fill ~-15 ~-15 ~15 ~ ~ ~ air replace #minecraft:stone_ore_replaceables
+/setblock ~ ~ ~ nmo:crusher

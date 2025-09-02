@@ -85,6 +85,7 @@ public class AllBlock {
         return block;
     }
 
+
     private static void registerOres() {
         for (String name : ORE_NAMES) {
             String oreId = name + "_ore";
