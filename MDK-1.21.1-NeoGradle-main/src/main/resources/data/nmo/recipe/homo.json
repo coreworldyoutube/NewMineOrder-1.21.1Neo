@@ -2,17 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
     "X": {
       "tag": "c:ingots"
     }
   },
   "pattern": [
-    "XX ",
-    "X# ",
-    " # "
+    "XXX"
   ],
   "result": {
     "count": 1,

@@ -1,8 +1,7 @@
 {
   "values": [
-    "#c:ingots/beryllium",
-    "#c:ingots/nickel",
-    "#c:ingots/steel",
-    "#c:ingots/tin"
+    "c:ingots/beryllium",
+    "c:ingots/steel",
+    "c:ingots/tin"
   ]
 }
