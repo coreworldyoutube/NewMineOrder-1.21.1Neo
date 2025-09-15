@@ -26,11 +26,6 @@ public class ModBlockEntities {
                     AllBlock.CRUSHER.get()
             ).build(null)); // DataFixer は null で OK
 
-    public static final Supplier<BlockEntityType<HeatCrafterBlockEntity>> HEAT_CRAFTER =
-            BLOCK_ENTITIES.register("heat_crafter_be", () -> BlockEntityType.Builder.of(
-                    HeatCrafterBlockEntity::new,
-                    AllBlock.HEAT_CRAFTER.get()
-            ).build(null));
 
     // DeferredRegister をイベントバスに登録するメソッド
     public static void register(IEventBus eventBus) {

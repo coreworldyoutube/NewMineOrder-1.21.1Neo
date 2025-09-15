@@ -1,7 +1,3 @@
-/fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
-/give @p nmo:copper_coil
-/give @p nmo:molten_beryllium_bucket
-/give @p nmo:molten_copper_bucket
 /give @p nmo:titanium_ore
 /give @p nmo:cobalt_ore
 /give @p nmo:titanium_ore
@@ -48,3 +44,7 @@
 /give @p nmo:crusher
 /time set day
 /give @p nmo:heat_crafter
+/give @p nmo:beryllium_ingot
+/give @p nmo:tin_ingot
+/give @p nmo:steel\ingot
+/give @p nmo:steel_ingot
