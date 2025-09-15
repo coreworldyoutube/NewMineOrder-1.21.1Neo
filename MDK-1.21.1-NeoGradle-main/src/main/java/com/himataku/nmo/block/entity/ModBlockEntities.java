@@ -2,8 +2,9 @@ package com.himataku.nmo.block.entity;
 
 
 import com.himataku.nmo.Main;
-import com.himataku.nmo.block.extra.ExtraAll;
+import com.himataku.nmo.block.AllBlock;
 import net.minecraft.core.registries.BuiltInRegistries;
+
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -22,8 +23,14 @@ public class ModBlockEntities {
                     // BlockEntity のコンストラクタ参照
                     CrushBlockEntity::new,
                     // 対応するブロック
-                    ExtraAll.EXTRA_BLOCKS.get()
+                    AllBlock.CRUSHER.get()
             ).build(null)); // DataFixer は null で OK
+
+    public static final Supplier<BlockEntityType<HeatCrafterBlockEntity>> HEAT_CRAFTER =
+            BLOCK_ENTITIES.register("heat_crafter_be", () -> BlockEntityType.Builder.of(
+                    HeatCrafterBlockEntity::new,
+                    AllBlock.HEAT_CRAFTER.get()
+            ).build(null));
 
     // DeferredRegister をイベントバスに登録するメソッド
     public static void register(IEventBus eventBus) {

@@ -46,8 +46,21 @@ public class AllBlock {
         }
     }
 
+    public static final DeferredBlock<Block> CRUSHER = BLOCKS.register("crusher",
+            () -> new Crush(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)
+                    .noOcclusion())
+    );
 
-
+    public static final DeferredBlock<Block> HEAT_CRAFTER = BLOCKS.register("heat_crafter",
+            () -> new Crush(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)
+                    .noOcclusion())
+    );
 
 
 

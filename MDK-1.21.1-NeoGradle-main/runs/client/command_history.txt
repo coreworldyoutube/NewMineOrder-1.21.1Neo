@@ -1,8 +1,3 @@
-/
-/fill ~ ~ ~ ~32 ~-64 ~32 air replace #minecraft:base_stone_overworld
-/gamerule commandModificationBlockLimit 600000
-/fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
-/
 /fill ~ ~ ~ ~32 ~-100 ~32 air replace #minecraft:base_stone_overworld
 /give @p nmo:copper_coil
 /give @p nmo:molten_beryllium_bucket
@@ -48,3 +43,8 @@
 /fill ~-15 ~-15 ~15 ~ ~ ~ air replace grass_block
 /fill ~-15 ~-15 ~15 ~ ~ ~ air replace #minecraft:stone_ore_replaceables
 /setblock ~ ~ ~ nmo:crusher
+/setblock ~ ~1 ~ nmo:crusher
+/setblock ~ ~ ~ nmo:crusher
+/give @p nmo:crusher
+/time set day
+/give @p nmo:heat_crafter

@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FlowingFluid;
 
 public class FireLiquid extends LiquidBlock {
-    public FireLiquid(FlowingFluid fluid, BlockBehaviour.Properties props) {
+    public FireLiquid(FlowingFluid fluid, Properties props) {
         super(fluid, props);
     }
 

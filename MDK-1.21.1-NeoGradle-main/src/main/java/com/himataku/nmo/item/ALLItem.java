@@ -1,6 +1,8 @@
 package com.himataku.nmo.item;
 
 import com.himataku.nmo.Main;
+import com.himataku.nmo.block.AllBlock;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -20,6 +22,12 @@ public class ALLItem {
 
     public static final DeferredItem<Item> SCRAP_BECU = ITEMS.register("scrap_becu",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<BlockItem> CRUSHER_ITEM = ALLItem.ITEMS.register("crusher",
+            () -> new BlockItem(AllBlock.CRUSHER.get(), new Item.Properties()));
+
+    public static final DeferredItem<BlockItem> HEAT_CRAFTER_ITEM = ALLItem.ITEMS.register("heat_crafter",
+            () -> new BlockItem(AllBlock.HEAT_CRAFTER.get(), new Item.Properties()));
 
     // 原鉱リスト（raw）
     private static final String[] RAW_METALS = {

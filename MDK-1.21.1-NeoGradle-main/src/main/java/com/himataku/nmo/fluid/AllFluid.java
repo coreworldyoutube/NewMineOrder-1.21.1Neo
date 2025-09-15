@@ -27,6 +27,7 @@ import java.util.Map;
 public class AllFluid {
 
     public static final String[] METALS = { "copper", "zinc", "tin", "silver", "beryllium", "oil" };
+    public static final String[] Liquid = { "copper", "zinc", "tin", "silver", "beryllium", "oil" };
     public static final Map<String, Integer> METAL_COLORS = Map.of(
             "copper", 0xFFB87333,
             "zinc", 0xFF7F8C8D,
